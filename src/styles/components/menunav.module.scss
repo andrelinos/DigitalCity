@@ -1,0 +1,154 @@
+.container {
+  width: 100%;
+  height: 6rem;
+  background: #333;
+}
+
+.logo {
+  width: auto;
+  height: 100%;
+  background: #333;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  max-width: 6rem;
+  height: auto;
+}
+
+.menucontainer {
+  width: 100%;
+  max-width: 80rem;
+  height: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin: 0 auto;
+  padding: 0 5rem;
+}
+
+.menucontainer .menu {
+  width: auto;
+
+  display: flex;
+}
+
+.menucontainer .menu ul {
+  display: flex;
+  align-items: center;
+}
+
+.menucontainer .menu ul li {
+  display: block;
+  padding: 1rem;
+  margin: 0 0.5rem;
+  color: var(--white);
+  cursor: pointer;
+  transition: filter 0.2s;
+}
+
+.menucontainer .menu ul li:hover {
+  /* filter: brightness(90%); */
+}
+
+.menucontainer .menu ul li:hover:last-child {
+  background: #333;
+  position: relative;
+}
+
+.menucontainer .menu ul li ul {
+  width: 19rem;
+  position: absolute;
+  top: 3em;
+  left: 0;
+  display: none;
+  padding: 0.5rem 0 1rem;
+  line-height: 1.6;
+  background: #333;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.menucontainer .menu ul li ul li:first-child {
+  width: 18rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menucontainer .menu ul li ul li span {
+  display: block;
+  width: 20rem;
+  height: 2.5rem;
+  padding: 0.5rem;
+  background: orange;
+  border-radius: 0.2rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+.menucontainer .menu ul li ul li span:last-child {
+  margin-left: 0.5rem;
+  background: #f9f9f9;
+  color: orange;
+}
+
+.container .menu li:hover ul,
+.menu li.over ul {
+  display: block;
+}
+
+.menucontainer .menu li ul li {
+  display: block;
+  width: 9.3rem;
+}
+
+.menucontainer .menu > div {
+  display: flex;
+}
+
+.menucontainer .buttonAds {
+  width: 10.5rem;
+  height: 2.5rem;
+  background: var(--orange);
+  border-radius: 0.3rem;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: var(--white);
+  cursor: pointer;
+}
+
+.menucontainer .buttonAds:hover {
+  filter: brightness(90%);
+}
+
+.menucontainer .buttonSearch {
+  width: 2.5rem;
+  height: 2.5rem;
+  background: none;
+  border-radius: 0.3rem;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 0.6rem;
+  cursor: pointer;
+}
+
+.menucontainer .buttonSearch img {
+  width: 1.5rem;
+  height: 1.5rem;
+  transition: transform 0.2s;
+}
+
+.menucontainer .buttonSearch img:hover {
+  transform: scale(1.1);
+}

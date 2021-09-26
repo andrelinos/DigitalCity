@@ -1,0 +1,123 @@
+.container {
+  width: 100%;
+  height: calc(100vh - 6rem);
+  min-height: 50rem;
+  background: #6d6d6d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding-top: 1.875rem; */
+}
+
+.homeBox {
+  max-width: 67.5rem;
+  height: auto;
+  text-align: center;
+  margin-top: -10rem;
+}
+
+.homeBox > h1 {
+  color: var(--white);
+  margin-bottom: 1rem;
+}
+
+.homeBoxInputs {
+  width: 100%;
+  height: 3.75rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0.313rem;
+}
+
+.homeBoxInputs input {
+  height: 3rem;
+  border-radius: 0.313rem;
+  background: #FFFFFF;
+  border: 1px solid rgba(51, 51, 51, 0.3);
+  padding: 0 0.5rem;
+}
+
+.homeBoxInputs input:nth-child(1) {
+  flex: 2;
+}
+
+.homeBoxInputs input:nth-child(2) {
+  flex: 1;
+  margin-left: 0.313rem;
+}
+
+.homeBoxInputs input:focus {
+  box-shadow: 0 0 2pt 1pt var(--orange);
+  outline: 0.15rem;
+  overflow: unset;
+}
+
+.homeBoxInputs > button {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.313rem;
+  border: none;
+  background: var(--orange);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 0.313rem;
+}
+
+.homeBoxInputs > button img {
+  width: 1.5rem;
+  height: 1.5rem;
+  transition: transform 0.2s ;
+}
+
+.homeBoxInputs > button img:hover {
+  transform: scale(1.1);
+}
+
+.categoriesBox {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 1rem 0;
+  padding: 0 auto;
+  text-align: center;
+}
+
+.categoryBox {
+  min-width: 6.1rem;
+  max-width: 6.1rem;
+  height: 6rem;
+  background: #dedede;
+  margin: 0.313rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 0.313rem;
+  cursor: pointer;
+  transition: filter 0.2s;
+  flex: 1;
+}
+
+.categoryBox:hover {
+  filter: brightness(95%);
+}
+
+.categoryBox span {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 87.5%;
+  padding: 0.188rem;
+}
+
+.categoryBox span:nth-child(1) {
+  background: rgb(158, 157, 157);
+  border-radius: 0.313rem 0.313rem 0 0;
+}
