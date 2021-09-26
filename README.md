@@ -2,7 +2,7 @@
 
 <img src="./public/assets/images/logo.svg" />
 
-**Nota**: Projeto desenvolvido para os desafios do [devchallenge.com.br/](https://www.devchallenge.com.br).
+**Nota**: Projeto desenvolvido para os desafios do [devchallenge.com.br](https://www.devchallenge.com.br).
 
 
 # Páginas da aplicação
