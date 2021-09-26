@@ -15,13 +15,17 @@
 - Acesse a pasta de projetos desejada em seu computador.
 - Digite os comandos abaixo:
 ```bash
-$ git clone https://github.com/andrelinos/DigitalCity.git digitalcity # clonar o projeto com o nome `digitalcity` em sua máquina
+# clonar o projeto com o nome `digitalcity` em sua máquina
+$ git clone https://github.com/andrelinos/DigitalCity.git digitalcity
 
-$ cd digitalcity # acessar a pasta do projeto
+# acessar a pasta do projeto
+$ cd digitalcity
 
-$ yarn # ou `npm run` para baixar as dependências para o projeto
+# ou `npm run` para baixar as dependências para o projeto
+$ yarn
 
-$ code . # para abrir a pasta do projeto no Visual Studio Code
+# para abrir a pasta do projeto no Visual Studio Code
+$ code .
 ```
 - Feito isto, basta seguir com o desafio.
 
@@ -29,6 +33,34 @@ $ code . # para abrir a pasta do projeto no Visual Studio Code
 ---
 ## Mais telas do Projeto
 [Projeto no Figma](https://www.figma.com/file/lMIfJbljB115TyNBUNhlWs/Digital-City---WEB?node-id=0%3A1)
+
+<br />
+
+## Techs
+- HTML
+- CSS
+- Javascript
+
+## Desafio
+- Sua página deve se parecer com estas páginas baixo:
+Nota: Poderá variar de acordo com seu gosto.
+- Clone o projeto para sua máquina este projeto conforme informado acima.
+
+### Listagem
+<img src="prtscn/ads.png" />
+
+### Página de cadastro
+<img src="prtscn/cad-page.png" />
+
+## Cores principais
+- Text Dark: #373435
+- Text: #96989A
+- Orange: #F58634
+- Green: #2CB742
+- Blue: #2196F3
+
+## Fontes
+- Roboto (Google Fonts)
 
 <br />
 ---
@@ -40,8 +72,7 @@ $ code . # para abrir a pasta do projeto no Visual Studio Code
 - Cliar rota para que quando clicar nos icones, abrir os links das redes sociais.
 - Tornar possível ao clicar no ícone do Whatsapp, abrir a api para a página de conversa.
 
-## Listagem
-<img src="prtscn/ads.png" />
+
 
 <br /><br />
 # Desafio adicional - Itermediário
@@ -74,3 +105,18 @@ Nota: Com a possibilidade de apenas pessoas cadastradas poderão dar o joinha. A
 - Criar funcionalidade de período aberto para atendimento.
 - Na single page, além de exibir informações, adicionar o campo para "Como chegar". Onde será criada uma rota no Google Maps.
 - Fazer deploy do projeto.
+
+
+## Autor
+<a href="https:andrelino.dev">
+<kbd>
+  <img height="150" width="150"
+    src="https://github.com/andrelinos.png"
+    alt="Avatar do autor" />
+</kbd>
+<br /><b>
+Andrelino Silva 🚀</b></a>
+
+<p>
+    Sou apaixonado por tecnologias e quero muito criar coisas grandes e de ajudar as pessoas. Estou na luta para estudar e conciliar família, estudos, trabalho.
+</p>
