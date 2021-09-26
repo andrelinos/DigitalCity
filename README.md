@@ -10,6 +10,21 @@
 ## Página inicial
 <img src="prtscn/home.png" />
 
+# Clonando o projeto para sua máquina
+- Abra o terminal.
+- Acesse a pasta de projetos desejada em seu computador.
+- Digite os comandos abaixo:
+```bash
+$ git clone https://github.com/andrelinos/DigitalCity.git digitalcity # clonar o projeto com o nome `digitalcity` em sua máquina
+
+$ cd digitalcity # acessar a pasta do projeto
+
+$ yarn # ou `npm run` para baixar as dependências para o projeto
+
+$ code . # para abrir a pasta do projeto no Visual Studio Code
+```
+- Feito isto, basta seguir com o desafio.
+
 
 ---
 ## Mais telas do Projeto
@@ -24,7 +39,9 @@
 - Ná single-page, adicionar um mapa real para exibir um determinado endereço.
 - Cliar rota para que quando clicar nos icones, abrir os links das redes sociais.
 - Tornar possível ao clicar no ícone do Whatsapp, abrir a api para a página de conversa.
--
+
+## Listagem
+<img src="prtscn/ads.png" />
 
 <br /><br />
 # Desafio adicional - Itermediário
@@ -39,8 +56,6 @@
 - Criar página de login.
 - Fazer deploy do projeto.
 
-## Listagem
-<img src="prtscn/ads.png" />
 
 # Desafio adicional - Avançado
 - Usar banco de dados para armazenar as informações.
