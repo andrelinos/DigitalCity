@@ -108,7 +108,7 @@ Nota: Com a possibilidade de apenas pessoas cadastradas poderão dar o joinha. A
 
 
 ## Autor
-<a href="https:andrelino.dev">
+<a href="https://andrelino.dev">
 <kbd>
   <img height="150" width="150"
     src="https://github.com/andrelinos.png"
